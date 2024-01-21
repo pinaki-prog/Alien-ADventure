@@ -1,6 +1,7 @@
 import pygame
 import random
 import sys
+import pygame.mixer
 def start_screen(screen):
     # Constants
     WIDTH, HEIGHT = 800, 600
@@ -84,6 +85,23 @@ cow = pygame.transform.scale(cow, (40, 40))
 
 # Initialize Pygame
 pygame.init()
+
+# Initialize the mixer module
+pygame.mixer.init()
+
+# Load background music
+background_music = pygame.mixer.music.load("background.mp3")
+
+# Set the volume for the background music (0.1 is 10% volume)
+pygame.mixer.music.set_volume(0.1)
+
+# Load sound effect
+laser_sound = pygame.mixer.Sound("laser.mp3")
+
+# ... (rest of the code)
+
+# Play background music
+pygame.mixer.music.play(-1, 0.0)
 
 # Constants
 WIDTH, HEIGHT = 800, 600
@@ -170,6 +188,9 @@ while running:
                 continue  # Skip the rest of the loop until the game has started
             elif event.key == pygame.K_SPACE:
                 space_pressed = True
+                if space_pressed:
+                     laser_sound.play()
+                
         elif event.type == pygame.KEYUP and event.key == pygame.K_SPACE:
             space_pressed = False
 
