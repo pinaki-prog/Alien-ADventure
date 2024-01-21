@@ -1,0 +1,28 @@
+Game Alien Adventure by pinaki
+You are an alien airman cruising through the macrocosm in your safe UFO. Unfortunately, you are falling before on your daily share of kidnapping, and the Intergalactic Federation is not too pleased.
+To avoid a cosmic penalty, you must kidnap colorful targets on Earth.
+
+Mechanics
+1. Kidnapping situations
+At the launch of each position, you are given a specific kidnapping share.
+This represents the number of cows you must kidnap to progress.
+
+The game consists of ten situations, each with an adding share.
+Completing one position unlocks the coming and renew the share counter.
+
+2. UFO Controls
+Use the arrow keys to navigate the UFO across the game screen.
+
+3. Targets – lovable cows
+Targets are fascinating, pixelated cows wandering on the Earth's face.
+You will approach a cow, spark your tractor ray( space bar), and watch the cow dissappear from your screen.
+
+4. Tractor ray mechanics
+You will press the space bar to spark the tractor ray, which extends from your UFO to the ground.
+
+When the ray touches a cow, it triggers the kidnapping process, and the cow dissappears, adding your score and kidnapping share.
+
+5. timekeeper and urgency
+Each position comes with a preamble timekeeper, adding a sense of urgency to your kidnapping.
+creator pinaki.
+Successfully reaching the kidnapping share before the timekeeper hits zero ensures advancement to the next position.
